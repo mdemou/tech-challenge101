@@ -1,8 +1,8 @@
 # F1 Simulator API
 
-A small, read-only REST API that serves fictional Formula 1 data. It is the **external data provider** for the *F1 Race Strategist* take-home challenge.
+A small, read-only REST API that serves simplified Formula 1 data. It is the **external data provider** for the *F1 Race Strategist* take-home challenge.
 
-> This API is intentionally a simplified fictional F1 data provider for a coding challenge. It is not intended to model real Formula 1 physics or performance.
+> This API is intentionally a simplified F1 data provider for a coding challenge. Team, driver and circuit **names** are real, but every numeric attribute (pace, consistency, car performance, lap times, degradation, pit-stop loss, weather) is **invented for this exercise**. It is not intended to model real Formula 1 physics or performance, and the values do not reflect any real team's or driver's ability.
 
 It gives candidates drivers, teams, circuits, races, tyres, weather and simulation parameters. **It deliberately does not simulate anything** — building the strategy and simulation logic is the candidate's job.
 
@@ -130,8 +130,8 @@ Notes:
 
 | Resource | Count |
 |---|---|
-| Teams | 5 |
-| Drivers | 10 |
+| Teams | 10 |
+| Drivers | 20 |
 | Circuits | 7 |
 | Races | 7 |
 | Tyre compounds | 5 |
@@ -142,7 +142,7 @@ The data set is designed to create real trade-offs:
 - **Tyres** trade pace against durability; `INTERMEDIATE` and `WET` trade dry pace for wet grip, and `optimalRainIntensity` says which rain band each compound is built for.
 - **Weather** spans a fully dry race, persistent light rain, rain arriving mid-race, a drying track, and a heavy-rain race.
 
-All names are fictional. Any resemblance to real teams, drivers or circuits is incidental.
+Names are drawn from the real 2025 grid and calendar so the data feels familiar. All performance figures are fabricated.
 
 ## Architecture
 

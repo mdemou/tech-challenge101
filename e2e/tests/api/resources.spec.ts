@@ -5,8 +5,8 @@ import { expect, test } from "@playwright/test";
  * collection under the expected data key.
  */
 const LIST_RESOURCES = [
-  { path: "/api/drivers", key: "drivers", code: "DRV2001", minimum: 10 },
-  { path: "/api/teams", key: "teams", code: "TEAM2001", minimum: 5 },
+  { path: "/api/drivers", key: "drivers", code: "DRV2001", minimum: 20 },
+  { path: "/api/teams", key: "teams", code: "TEAM2001", minimum: 10 },
   { path: "/api/circuits", key: "circuits", code: "CIR2001", minimum: 6 },
   { path: "/api/tyres", key: "tyres", code: "TYR2001", minimum: 5 },
   { path: "/api/races", key: "races", code: "RACE2001", minimum: 6 },

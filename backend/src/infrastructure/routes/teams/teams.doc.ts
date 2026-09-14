@@ -4,8 +4,8 @@ import teamsResponses from './teams.responses';
 
 export const TEAM_SCHEMA = Joi.object({
   id: Joi.string().example('team-01'),
-  name: Joi.string().example('Velocity Racing'),
-  carPerformance: Joi.number().example(0.98).description('Relative car performance. Higher is faster.'),
+  name: Joi.string().example('McLaren'),
+  carPerformance: Joi.number().example(0.99).description('Relative car performance. Higher is faster.'),
 }).label('Team');
 
 const teamsDocs = {

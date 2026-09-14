@@ -1,7 +1,12 @@
 [
-  { "id": "team-01", "name": "Velocity Racing", "carPerformance": 0.98 },
-  { "id": "team-02", "name": "Apex Motorsport", "carPerformance": 0.96 },
-  { "id": "team-03", "name": "Northgate GP", "carPerformance": 0.94 },
-  { "id": "team-04", "name": "Solaris Racing", "carPerformance": 0.92 },
-  { "id": "team-05", "name": "Ironclad Racing", "carPerformance": 0.9 }
+  { "id": "team-01", "name": "McLaren", "carPerformance": 0.99 },
+  { "id": "team-02", "name": "Red Bull Racing", "carPerformance": 0.97 },
+  { "id": "team-03", "name": "Ferrari", "carPerformance": 0.965 },
+  { "id": "team-04", "name": "Mercedes", "carPerformance": 0.96 },
+  { "id": "team-05", "name": "Williams", "carPerformance": 0.935 },
+  { "id": "team-06", "name": "Racing Bulls", "carPerformance": 0.93 },
+  { "id": "team-07", "name": "Haas", "carPerformance": 0.928 },
+  { "id": "team-08", "name": "Aston Martin", "carPerformance": 0.925 },
+  { "id": "team-09", "name": "Alpine", "carPerformance": 0.915 },
+  { "id": "team-10", "name": "Kick Sauber", "carPerformance": 0.91 }
 ]
