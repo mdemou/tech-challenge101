@@ -26,11 +26,11 @@ Your backend consumes the **external F1 API** we provide, and runs the simulatio
 
 A read-only API with drivers, teams, circuits, races, tyres, weather and simulation parameters. We host it — you just call it over HTTP. Nothing to install or run.
 
-|                                    |                                       |
-| ---------------------------------- | ------------------------------------- |
-| **Base URL**                       | _sent with your challenge invitation_ |
-| **API documentation (Swagger UI)** | `<base URL>/docs`                     |
-| **OpenAPI spec**                   | `<base URL>/docs.json`                |
+|                                    |                                                  |
+| ---------------------------------- | ------------------------------------------------ |
+| **Base URL**                       | https://tech-challenge101.onrender.com           |
+| **API documentation (Swagger UI)** | **https://tech-challenge101.onrender.com/docs**  |
+| **OpenAPI spec**                   | https://tech-challenge101.onrender.com/docs.json |
 
 Start with the Swagger UI — it documents every endpoint, response schema, and error.
 
@@ -55,6 +55,7 @@ Notes:
 
 - The API has **no simulation endpoint**. It gives you data; the simulation is yours to write.
 - It is read-only and deterministic — the same request always returns the same data.
+- It is on a free hosting tier, so it sleeps when idle. **The first request after a quiet period can take up to a minute** — that's the server waking up, not an error. It's fast after that.
 
 ---
 
