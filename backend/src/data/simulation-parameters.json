@@ -1,0 +1,65 @@
+[
+  {
+    "raceId": "race-01",
+    "lapTimeVariance": 0.12,
+    "pitStopLoss": 18.0,
+    "tyreChangeTime": 2.4,
+    "fuelEffectPerLap": 0.028,
+    "safetyCarProbability": 0.6,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-02",
+    "lapTimeVariance": 0.18,
+    "pitStopLoss": 21.5,
+    "tyreChangeTime": 2.6,
+    "fuelEffectPerLap": 0.035,
+    "safetyCarProbability": 0.25,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-03",
+    "lapTimeVariance": 0.15,
+    "pitStopLoss": 22.0,
+    "tyreChangeTime": 2.5,
+    "fuelEffectPerLap": 0.037,
+    "safetyCarProbability": 0.2,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-04",
+    "lapTimeVariance": 0.2,
+    "pitStopLoss": 19.5,
+    "tyreChangeTime": 2.5,
+    "fuelEffectPerLap": 0.03,
+    "safetyCarProbability": 0.45,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-05",
+    "lapTimeVariance": 0.22,
+    "pitStopLoss": 20.0,
+    "tyreChangeTime": 2.4,
+    "fuelEffectPerLap": 0.026,
+    "safetyCarProbability": 0.35,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-06",
+    "lapTimeVariance": 0.14,
+    "pitStopLoss": 23.0,
+    "tyreChangeTime": 2.7,
+    "fuelEffectPerLap": 0.033,
+    "safetyCarProbability": 0.3,
+    "minimumPitStops": 1
+  },
+  {
+    "raceId": "race-07",
+    "lapTimeVariance": 0.25,
+    "pitStopLoss": 24.5,
+    "tyreChangeTime": 2.8,
+    "fuelEffectPerLap": 0.04,
+    "safetyCarProbability": 0.7,
+    "minimumPitStops": 1
+  }
+]

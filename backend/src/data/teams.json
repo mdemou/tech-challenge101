@@ -1,0 +1,7 @@
+[
+  { "id": "team-01", "name": "Velocity Racing", "carPerformance": 0.98 },
+  { "id": "team-02", "name": "Apex Motorsport", "carPerformance": 0.96 },
+  { "id": "team-03", "name": "Northgate GP", "carPerformance": 0.94 },
+  { "id": "team-04", "name": "Solaris Racing", "carPerformance": 0.92 },
+  { "id": "team-05", "name": "Ironclad Racing", "carPerformance": 0.9 }
+]

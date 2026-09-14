@@ -1,0 +1,12 @@
+[
+  { "id": "driver-01", "name": "Alex Carter", "number": 1, "teamId": "team-01", "pace": 0.98, "consistency": 0.95 },
+  { "id": "driver-02", "name": "Mateo Rossi", "number": 16, "teamId": "team-01", "pace": 0.96, "consistency": 0.92 },
+  { "id": "driver-03", "name": "Jonas Lindqvist", "number": 4, "teamId": "team-02", "pace": 0.95, "consistency": 0.94 },
+  { "id": "driver-04", "name": "Rafael Duarte", "number": 11, "teamId": "team-02", "pace": 0.94, "consistency": 0.9 },
+  { "id": "driver-05", "name": "Ethan Blake", "number": 22, "teamId": "team-03", "pace": 0.93, "consistency": 0.96 },
+  { "id": "driver-06", "name": "Kenji Nakamura", "number": 7, "teamId": "team-03", "pace": 0.92, "consistency": 0.93 },
+  { "id": "driver-07", "name": "Luca Moretti", "number": 31, "teamId": "team-04", "pace": 0.91, "consistency": 0.89 },
+  { "id": "driver-08", "name": "Sebastian Ortiz", "number": 44, "teamId": "team-04", "pace": 0.9, "consistency": 0.91 },
+  { "id": "driver-09", "name": "Oliver Hayes", "number": 9, "teamId": "team-05", "pace": 0.89, "consistency": 0.94 },
+  { "id": "driver-10", "name": "Nils Bergstrom", "number": 77, "teamId": "team-05", "pace": 0.88, "consistency": 0.88 }
+]

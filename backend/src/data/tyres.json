@@ -1,0 +1,37 @@
+[
+  {
+    "compound": "SOFT",
+    "pace": -1.0,
+    "degradation": 0.09,
+    "wetPerformance": 0.1,
+    "optimalRainIntensity": { "min": 0.0, "max": 0.05 }
+  },
+  {
+    "compound": "MEDIUM",
+    "pace": -0.4,
+    "degradation": 0.055,
+    "wetPerformance": 0.15,
+    "optimalRainIntensity": { "min": 0.0, "max": 0.1 }
+  },
+  {
+    "compound": "HARD",
+    "pace": 0.0,
+    "degradation": 0.03,
+    "wetPerformance": 0.2,
+    "optimalRainIntensity": { "min": 0.0, "max": 0.15 }
+  },
+  {
+    "compound": "INTERMEDIATE",
+    "pace": 1.8,
+    "degradation": 0.07,
+    "wetPerformance": 0.8,
+    "optimalRainIntensity": { "min": 0.15, "max": 0.6 }
+  },
+  {
+    "compound": "WET",
+    "pace": 3.2,
+    "degradation": 0.05,
+    "wetPerformance": 1.0,
+    "optimalRainIntensity": { "min": 0.55, "max": 1.0 }
+  }
+]

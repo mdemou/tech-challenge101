@@ -1,0 +1,72 @@
+[
+  {
+    "id": "race-01",
+    "name": "Port Adriano Grand Prix",
+    "round": 1,
+    "date": "2025-05-25",
+    "circuitId": "circuit-01",
+    "laps": 78,
+    "temperature": 26,
+    "rainProbability": 0.05
+  },
+  {
+    "id": "race-02",
+    "name": "Silverpine Grand Prix",
+    "round": 2,
+    "date": "2025-06-08",
+    "circuitId": "circuit-02",
+    "laps": 52,
+    "temperature": 17,
+    "rainProbability": 0.55
+  },
+  {
+    "id": "race-03",
+    "name": "Red Dune Grand Prix",
+    "round": 3,
+    "date": "2025-06-22",
+    "circuitId": "circuit-03",
+    "laps": 57,
+    "temperature": 35,
+    "rainProbability": 0.02
+  },
+  {
+    "id": "race-04",
+    "name": "Lakeside Grand Prix",
+    "round": 4,
+    "date": "2025-07-13",
+    "circuitId": "circuit-04",
+    "laps": 70,
+    "temperature": 23,
+    "rainProbability": 0.65
+  },
+  {
+    "id": "race-05",
+    "name": "Alpengrund Grand Prix",
+    "round": 5,
+    "date": "2025-08-03",
+    "circuitId": "circuit-05",
+    "laps": 71,
+    "temperature": 19,
+    "rainProbability": 0.6
+  },
+  {
+    "id": "race-06",
+    "name": "Kaiserwald Grand Prix",
+    "round": 6,
+    "date": "2025-09-07",
+    "circuitId": "circuit-06",
+    "laps": 60,
+    "temperature": 20,
+    "rainProbability": 0.1
+  },
+  {
+    "id": "race-07",
+    "name": "Bayview Night Grand Prix",
+    "round": 7,
+    "date": "2025-09-28",
+    "circuitId": "circuit-07",
+    "laps": 61,
+    "temperature": 27,
+    "rainProbability": 0.85
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "f1simulatorapi-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:agent": "E2E_AGENT=1 npx playwright test --max-failures=1",
+    "install:browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "dotenv": "^16.0.0",
+    "tsx": "^4.7.0"
+  }
+}

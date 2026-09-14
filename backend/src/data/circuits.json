@@ -1,0 +1,86 @@
+[
+  {
+    "id": "circuit-01",
+    "name": "Port Adriano Street Circuit",
+    "country": "Spain",
+    "type": "street",
+    "laps": 78,
+    "lengthKm": 3.34,
+    "baseLapTime": 74.5,
+    "pitStopLoss": 18.0,
+    "tyreWear": 0.85,
+    "overtakingDifficulty": 0.95
+  },
+  {
+    "id": "circuit-02",
+    "name": "Silverpine Park",
+    "country": "United Kingdom",
+    "type": "permanent",
+    "laps": 52,
+    "lengthKm": 5.89,
+    "baseLapTime": 88.2,
+    "pitStopLoss": 21.5,
+    "tyreWear": 1.25,
+    "overtakingDifficulty": 0.45
+  },
+  {
+    "id": "circuit-03",
+    "name": "Red Dune Raceway",
+    "country": "Bahrain",
+    "type": "permanent",
+    "laps": 57,
+    "lengthKm": 5.41,
+    "baseLapTime": 93.4,
+    "pitStopLoss": 22.0,
+    "tyreWear": 1.35,
+    "overtakingDifficulty": 0.3
+  },
+  {
+    "id": "circuit-04",
+    "name": "Lakeside International",
+    "country": "Canada",
+    "type": "semi-street",
+    "laps": 70,
+    "lengthKm": 4.36,
+    "baseLapTime": 75.8,
+    "pitStopLoss": 19.5,
+    "tyreWear": 0.95,
+    "overtakingDifficulty": 0.4
+  },
+  {
+    "id": "circuit-05",
+    "name": "Alpengrund Ring",
+    "country": "Austria",
+    "type": "permanent",
+    "laps": 71,
+    "lengthKm": 4.32,
+    "baseLapTime": 67.2,
+    "pitStopLoss": 20.0,
+    "tyreWear": 1.05,
+    "overtakingDifficulty": 0.55
+  },
+  {
+    "id": "circuit-06",
+    "name": "Kaiserwald Circuit",
+    "country": "Germany",
+    "type": "permanent",
+    "laps": 60,
+    "lengthKm": 5.15,
+    "baseLapTime": 84.6,
+    "pitStopLoss": 23.0,
+    "tyreWear": 1.1,
+    "overtakingDifficulty": 0.6
+  },
+  {
+    "id": "circuit-07",
+    "name": "Bayview Harbour Circuit",
+    "country": "Singapore",
+    "type": "street",
+    "laps": 61,
+    "lengthKm": 4.94,
+    "baseLapTime": 100.5,
+    "pitStopLoss": 24.5,
+    "tyreWear": 1.0,
+    "overtakingDifficulty": 0.85
+  }
+]
