@@ -4,7 +4,7 @@ Welcome, and thanks for taking the time to do this challenge.
 
 Build a small full-stack web application that lets a user put together an F1 race strategy and see how it turns out.
 
-**Expected effort: 1–2 hours.** Please don't spend significantly more. We would much rather see something small and working than something ambitious and half-finished. Leaving things out is fine — just tell us what and why.
+**Expected effort: 2-3 hours.** Please don't spend significantly more. We would much rather see something small and working than something ambitious and half-finished. Leaving things out is fine — just tell us what and why.
 
 ---
 
@@ -24,19 +24,13 @@ Your backend consumes the **external F1 API** we provide, and runs the simulatio
 
 ## The external F1 API
 
-A read-only API with drivers, teams, circuits, races, tyres, weather and simulation parameters. You run it locally alongside your own application.
+A read-only API with drivers, teams, circuits, races, tyres, weather and simulation parameters. We host it — you just call it over HTTP. Nothing to install or run.
 
-```bash
-cd backend
-npm install
-npm run dev          # http://localhost:3001
-```
-
-|                                    |                                 |
-| ---------------------------------- | ------------------------------- |
-| **Base URL**                       | http://localhost:3001           |
-| **API documentation (Swagger UI)** | **http://localhost:3001/docs**  |
-| **OpenAPI spec**                   | http://localhost:3001/docs.json |
+|                                    |                                       |
+| ---------------------------------- | ------------------------------------- |
+| **Base URL**                       | _sent with your challenge invitation_ |
+| **API documentation (Swagger UI)** | `<base URL>/docs`                     |
+| **OpenAPI spec**                   | `<base URL>/docs.json`                |
 
 Start with the Swagger UI — it documents every endpoint, response schema, and error.
 
@@ -61,7 +55,14 @@ Notes:
 
 - The API has **no simulation endpoint**. It gives you data; the simulation is yours to write.
 - It is read-only and deterministic — the same request always returns the same data.
-- `backend/README.md` documents the response format, error codes, and a header you can use to **make the API fail on demand**, so you can exercise your error handling.
+
+---
+
+## Using the data
+
+The dataset is small, but everything in it is there for a reason. **We expect you to use as much of it as you reasonably can** — drivers, teams, circuits, races, tyres, weather, and the simulation parameters.
+
+That does not mean your model has to consume every field. Data you don't simulate can still be shown on screen: who is driving, which team, what makes this circuit different, what the weather is doing. A submission that only ever reads `laps` and one tyre field is using very little of what it was given.
 
 ---
 
@@ -84,8 +85,6 @@ The simulation should at least:
 
 The breakdown matters more than the total, because that's what the user actually reads.
 
-**Optional, only if you have time:** weather, driver or car performance. Ignoring them is a perfectly good answer — just say so.
-
 Write down your main assumptions. A few lines is plenty.
 
 ---
@@ -98,15 +97,13 @@ Write down your main assumptions. A few lines is plenty.
 
 **Error handling** — cover the obvious cases: an invalid strategy, and the F1 API failing or returning nothing. How you surface these to the user is your call.
 
-**Nice to have, not required** — comparing two strategies side by side, weather effects, driver or car performance, persistence, polish.
-
 ---
 
 ## Technical freedom
 
 You choose everything: frontend framework, backend technology, language, architecture, testing tools, UI libraries.
 
-**A database is optional.** for this. If you add one anyway, be ready to explain why.
+**A database is optional** for this. If you add one anyway, be ready to explain why.
 
 Use what you're fastest in. We are not scoring your stack, only your reasoning.
 
@@ -137,24 +134,6 @@ Keep it brief — half a page is plenty. Add tests if you think they're worth th
 The challenge is followed by a technical interview of roughly **45-60 minutes**, focused on your implementation.
 
 Be ready to explain the code you submitted and the reasoning behind it.
-
----
-
-## How we evaluate
-
-In rough order of weight:
-
-1. **How you present the result** — can a user understand what happened and why?
-2. **Code quality and maintainability**
-3. **Frontend and backend design**
-4. **External API integration and error handling**
-5. **Technical decision-making and trade-offs**
-6. **Effective use of AI, and ownership of what it produced**
-7. **Ability to explain and defend your implementation**
-
-We are **not** evaluating the accuracy of your simulation, how much code you produce, or how much F1 you know.
-
-**A simple solution with clear reasoning beats a complex one you can't explain.**
 
 ---
 
